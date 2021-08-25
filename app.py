@@ -37,15 +37,9 @@ def predict_api():
     For direct API calls trought request
     '''
     data = request.get_json(force=True)
-    print(data)
-
-    # prediction = model.predict([np.array(list(data.values()))])
     pred, prob = predict_input(model, data)
-    print(pred, prob)
     return jsonify(int(pred), prob)
     
-
-
 
 
 if __name__ == "__main__":
