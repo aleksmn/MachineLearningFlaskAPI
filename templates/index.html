@@ -14,21 +14,21 @@
 
 <body>
  <div class="container">
-	<h1>Predict Salary Analysis</h1>
+	<h1>Predict booking cancellation</h1>
 
      <!-- Main Input For Receiving Query to our ML -->
+
     <form action="{{ url_for('predict')}}"method="post">
-      <label for="fname">Experience</label>
-    	<input type="text" name="experience" placeholder="Experience" required="required" />
+      <label for="fname">Hotel</label>
+    	<input type="text" name="experience" placeholder="Example: Resort Hotel" required="required" />
       
-      <label for="fname">Test Score</label>
-      <input type="text" name="test_score" placeholder="Test Score" required="required" />
+      <label for="fname">Lead time</label>
+      <input type="text" name="test_score" placeholder="1" required="required" />
 		  
-      <label for="fname">Interview Score</label>
-      <input type="text" name="interview_score" placeholder="Interview Score" required="required" />
+      <label for="fname">Arrival date</label>
+      <input type="text" name="interview_score" placeholder="2021-12-03" required="required" />
 
       <input type="submit" value="Submit">
-        <!-- <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button> -->
     </form>
 
    <br>
