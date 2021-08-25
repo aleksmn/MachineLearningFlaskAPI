@@ -2,12 +2,12 @@
 
 Running the project:
 
-1. Create the machine learning model by running below command from project home directory
+1. Create the machine learning model by running below command from project home directory. In the ipynb file you can see step by step creation of the model.
 ```
 python model.py
 ```
 
-2. Run app.py using below command to start Flask API
+1. Run app.py using below command to start Flask API
 ```
 python app.py
 ```
