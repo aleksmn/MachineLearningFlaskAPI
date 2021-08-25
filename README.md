@@ -15,7 +15,7 @@ python app.py
 ```
 
 3. Send direct POST requests to FLask API using Python's inbuilt request module
-Run the below command to send the request with some pre-popuated values -
+Run the below command to send the request with some pre-populated values -
 ```
 python request.py
 ```
