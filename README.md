@@ -2,7 +2,9 @@
 
 Running the project:
 
-1. Create the machine learning model by running below command from project home directory. In the ipynb file you can see step by step creation of the model.
+1. Create the machine learning model by running below command from project home directory. 
+   In the ipynb file you can see step by step creation of the model.
+   
 ```
 python model.py
 ```
