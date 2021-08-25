@@ -4,7 +4,7 @@ Running the project:
 
 1. Create the machine learning model by running below command from project home directory. 
    In the ipynb file you can see step by step creation of the model.
-   
+
 ```
 python model.py
 ```
@@ -19,3 +19,5 @@ Run the below command to send the request with some pre-popuated values -
 ```
 python request.py
 ```
+
+TO DO: Make form on home page for giving prediction based on input.
